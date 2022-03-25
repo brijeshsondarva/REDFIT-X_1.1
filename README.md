@@ -39,6 +39,7 @@ A Fortran 90 compiler is needed to recompile REDFIT-X. We compiled the program w
 
 ---------------------------------------------------------------------------------------------------------
 -----------------------------Process for compile---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 $ mkdir redfit
 $ cd redfit
 $ git clone https://github.com/brijeshsondarva/REDFIT-X_1.1.git
@@ -61,3 +62,4 @@ include '/home/user/redfit/src/nrutil.f90'
 src$ ftn redfit-x_1_1.f90
 src$ ls
 a.out \\ executable
+~~~~~~~~~~~~~~~~~~~~~~
