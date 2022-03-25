@@ -46,6 +46,7 @@ $ git clone https://github.com/brijeshsondarva/REDFIT-X_1.1.git
 $ cd REDFIT-X_1.1/src/
 $ ls
 src$ vi redfit-x_1_1.f90  \\ edit the following changes in that file
+
 ~~~~~~~~~~~~~~~~~~~~~~
 include '/home/user/redfit/src/nrtype.f90'
 include '/home/user/redfit/src/nr.f90'
@@ -58,6 +59,8 @@ include '/home/user/redfit/src/nrutil.f90'
   include '/home/user/redfit/src/gammln.f90'
   include '/home/user/redfit/src/erfcc.f90'
   include '/home/user/redfit/src/sort.f90'
+~~~~~~~~~~~~~~~~~~~~~~
+
 ~~~~~~~~~~~~~~~~~~~~~~
 src$ ftn redfit-x_1_1.f90
 src$ ls
