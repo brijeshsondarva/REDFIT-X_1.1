@@ -1,0 +1,2 @@
+module switch PrgEnv-cray/6.0.4 PrgEnv-intel
+module load cray-netcdf
