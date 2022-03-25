@@ -47,27 +47,27 @@ $ cd REDFIT-X_1.1/src/
 $ ls
 src$ vi redfit-x_1_1.f90  \\ edit the following changes in that file
 ~~~~~~~~~~~~~~~~~~~~~~
-include '/home/user/redfit/src/nrtype.f90'
+include '/home/user/REDFIT-X_1.1/src/nrtype.f90'
 
-include '/home/user/redfit/src/nr.f90'
+include '/home/user/REDFIT-X_1.1/src/nr.f90'
 
-include '/home/user/redfit/src/nrutil.f90'
+include '/home/user/REDFIT-X_1.1/src/nrutil.f90'
 
-include '/home/user/redfit/src/avevar.f90'
+include '/home/user/REDFIT-X_1.1/src/avevar.f90'
 
-include '/home/user/redfit/src/ran.f90'
+include '/home/user/REDFIT-X_1.1/src/ran.f90'
 
-include '/home/user/redfit/src/gammp.f90'
+include '/home/user/REDFIT-X_1.1/src/gammp.f90'
 
-include '/home/user/redfit/src/gser.f90'
+include '/home/user/REDFIT-X_1.1/src/gser.f90'
 
-include '/home/user/redfit/src/gcf.f90'
+include '/home/user/REDFIT-X_1.1/src/gcf.f90'
 
-include '/home/user/redfit/src/gammln.f90'
+include '/home/user/REDFIT-X_1.1/src/gammln.f90'
 
-include '/home/user/redfit/src/erfcc.f90'
+include '/home/user/REDFIT-X_1.1/src/erfcc.f90'
 
-include '/home/user/redfit/src/sort.f90'
+include '/home/user/REDFIT-X_1.1/src/sort.f90'
 
 ~~~~~~~~~~~~~~~~~~~~~~
 src$  ftn redfit-x_1_1.f90
