@@ -70,9 +70,7 @@ include '/home/user/redfit/src/erfcc.f90'
 include '/home/user/redfit/src/sort.f90'
 
 ~~~~~~~~~~~~~~~~~~~~~~
-
-src$ ftn redfit-x_1_1.f90
-src$ ls
-a.out \\ executable
-
+src$  ftn redfit-x_1_1.f90
+src$  ls
+a.out  \\ executable
 ~~~~~~~~~~~~~~~~~~~~~~
